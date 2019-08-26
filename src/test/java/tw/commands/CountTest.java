@@ -39,7 +39,14 @@ public class CountTest {
 	    assertEquals("2A0B",gameResult);
     }
     
-    
+    @Test
+    public void should_return_the_XAXB_when_input_the_error_String(){
+	    Count count = new Count("5237");
+	    Game game = new Game();
+	    String inputLine = "1 2";
+	    String gameResult = game.game(count,inputLine);
+	    assertEquals("ÊäÈë´íÎó",gameResult);
+    }
     
     @Test
     public void should_return_true_when_input_1234() {

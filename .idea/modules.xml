@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/unit-test-comprehensive-2019-8-26-5-15-50-999.iml" filepath="$PROJECT_DIR$/unit-test-comprehensive-2019-8-26-5-15-50-999.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unit-test-comprehensive.iml" filepath="$PROJECT_DIR$/.idea/modules/unit-test-comprehensive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unit-test-comprehensive_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unit-test-comprehensive_main.iml" group="unit-test-comprehensive" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unit-test-comprehensive_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unit-test-comprehensive_test.iml" group="unit-test-comprehensive" />
     </modules>
   </component>
 </project>

@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         for (int i = 0; i < RUN_TIMES; i++) {
             String input = new GuessInputCommand().input();
-            System.out.println(input);
+            System.out.println("你输入的数值为："+input);
         }
     }
 }

@@ -39,9 +39,12 @@ public class Count {
             return false;
         }else{
             for(int i = 0;i<inputNumbers.length;i++){
-                
+                if(inputNumbers[i].charAt(0)<48||inputNumbers[i].charAt(0)>57){
+                    return false;
+                }
             }
         }
+        return true;
     }
 //    public void createNumAnswer(){
 //        answer = (int)((Math.random()*9+1)*1000);

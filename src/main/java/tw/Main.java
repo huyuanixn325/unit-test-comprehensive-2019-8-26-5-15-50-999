@@ -3,7 +3,6 @@ package tw;
 import tw.commands.Count;
 import tw.commands.Game;
 import tw.commands.GuessInputCommand;
-import tw.commands.Unit;
 
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class Main {
         Game game = new Game();
         for (int i = 0; i < RUN_TIMES; i++) {
             String input = new GuessInputCommand().input();
-            System.out.println("你输入的数值为："+input);
+            System.out.println(input);
             String result = game.game(count,input);
             System.out.println(result);
         }

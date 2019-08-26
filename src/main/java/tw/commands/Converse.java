@@ -3,7 +3,7 @@ package tw.commands;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Unit {
+public class Converse {
 
     public static List<String> converseList(String line){
         List<String> inputList = new ArrayList<>();

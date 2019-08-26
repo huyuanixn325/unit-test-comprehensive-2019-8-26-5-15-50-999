@@ -32,6 +32,17 @@ public class Count {
         }
         return sameSpaceNumber;
     }
+
+    public boolean isValid(String input){
+        String[] inputNumbers = input.split(" ");
+        if (inputNumbers.length!=4){
+            return false;
+        }else{
+            for(int i = 0;i<inputNumbers.length;i++){
+                
+            }
+        }
+    }
 //    public void createNumAnswer(){
 //        answer = (int)((Math.random()*9+1)*1000);
 //    }

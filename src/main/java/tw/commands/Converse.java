@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Converse {
 
-    public static List<String> converseList(String line){
+    public  List<String> converseList(String line){
         List<String> inputList = new ArrayList<>();
 
         String[] guestNumbers = line.split(" ");
